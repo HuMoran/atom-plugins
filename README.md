@@ -43,7 +43,9 @@ sudo cnpm install -g eslint-plugin-import
 sudo cnpm install -g eslint-plugin-react
 sudo cnpm install -g eslint-plugin-jsx-a11y
 gedit ~/.eslintrc.json```
+
 输入
+
 ```json
 {
     "extends": "airbnb",
@@ -52,7 +54,9 @@ gedit ~/.eslintrc.json```
         "react"
     ]
 }```
+
 如果需要4空格对齐和忽略jquery语法中的变量未定义等错误,使用下面的配置
+
 ```json
 {
     "extends": "airbnb",
@@ -67,6 +71,7 @@ gedit ~/.eslintrc.json```
         "indent": ["error", 4]
     }
 }```
+
 在atom中安装linter插件和linter-eslint插件,并修改linter-eslint的缺省设置配置:<br>
 * 去掉Disable when no ESLint config is found的钩。
 * 勾上Use global ESLint installation的钩。
