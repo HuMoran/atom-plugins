@@ -1,4 +1,5 @@
-# atom-plugins* [atom-plugins](#1)
+# atom-plugins
+* [atom-plugins](#1)
 * [how to use global esLint config of airbnb](#2)
 
 ## <h2 id="1">atom-plugins</h2>
